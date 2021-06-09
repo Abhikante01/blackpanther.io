@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+body {
+  background-image: url(iamges/wallpaper.jpg);
+  height: 1000px;
+  width: auto;
+  padding: 0;
+  margin-right: 100%;
+  overflow: hidden;
+}
+.container > header > h1 {
+  position: relative;
+  color: darkorchid;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 55px;
+  left: 50px;
+}
+
+.container > footer {
+  color: darkorchid;
+  position: absolute;
+  bottom: 0;
+  left: 250px;
+  width: 100%;
+  display: inline-flex;
+
+  align-items: center;
+}
+
+.container footer a,
+p {
+  color: darkorchid;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.container nav ul li a {
+  color: darkorchid;
+  text-decoration: none;
+}
+
+.container nav ul li a:hover {
+  color: violet;
+  text-decoration: none;
+}
+.container nav ul li {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  font-size: 25px;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-weight: bolder;
+}
+
+.container nav ul {
+  display: flex;
+  left:125px;
+  justify-content: space-evenly;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.container #content p {
+  position: relative;
+  width: 500px;
+  text-align: left;
+  padding: 40px;
+  border: 2px solid darkorchid;
+  border-radius: 20px;
+  left: 100px;
+  top: 50px;
+}
